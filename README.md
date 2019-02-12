@@ -24,4 +24,4 @@ Zoals gezegd bestaat een element uit een begintag, de inhoud en een eindtag.
 Wat zijn nu tags? Een tag is een HTML code die tussen twee haken: < en > staat.
 Een voorbeeld van een tag is <HTML> en ook </HTML> is een tag. Het eerste voorbeeld is een begintag het tweede een eindtag. Een eindtag maak je hetzelfde als de begintag, maar dan met een /.
 
-Er zijn trouwens een paar elementen die geen inhoud hebben. Deze hebben daarom wel een begintag, maar geen eindtag. Maar voor nu is dit alles wat je moet weten om aan de slag te kunnen gaan met de HTML cursus.
+Er zijn trouwens een paar elementen die geen inhoud hebben. Deze hebben daarom wel een begintag, maar geen eindtag. Maar voor nu is dit alles wat je moet weten om aan de slag te kunnen gaan met HTML.
