@@ -1,0 +1,101 @@
+Dit is een '''lijst van [[HTML]]-elementen''' met een korte uitleg over hun betekenis.
+
+== Paginastructuur ==
+; {{cnw|&lt;html&gt;}}: bevat alle andere elementen
+; {{cnw|&lt;head&gt;}}: bevat [[metadata]] en (links naar) [[Cascading Style Sheets|CSS]] en [[scripttaal|scripts]] die nodig zijn voor de webpagina
+; {{cnw|&lt;body&gt;}}: bevat de inhoud van de pagina
+; {{cnw|&lt;frame&gt;}}: definieert een deelvenster ([[frame (HTML)|frame]]) van de pagina
+; {{cnw|&lt;frameset&gt;}}: definieert een groep van frames
+; {{cnw|&lt;noframes&gt;}}: wat getoond wordt als de [[webbrowser]] geen frames ondersteunt
+
+== Headelementen ==
+Elementen die binnen het {{cnw|&lt;head&gt;}}-element kunnen staan:
+; {{cnw|&lt;base&gt;}}: relatieve hyperlinks in de {{cnw|&lt;body&gt;}} zullen relatief zijn ten opzichte van deze absolute of relatieve [[Uniform Resource Identifier|URI]]
+; {{cnw|&lt;link&gt;}}: koppelen van CSS-bestanden
+; {{cnw|&lt;meta&gt;}}: meta-informatie
+; {{cnw|&lt;title&gt;}}: paginatitel in het browservenster
+; {{cnw|&lt;script&gt;}}: koppelen van [[scripttaal|scripts]] of het inline definiëren van scripts, wordt geladen vóór de inhoud ({{cnw|&lt;body&gt;}})
+; {{cnw|&lt;style&gt;}}: definieert inline CSS-regels
+
+== Pagina-elementen ==
+Elementen die binnen het {{cnw|&lt;body&gt;}}-element kunnen staan:
+; {{cnw|&lt;a&gt;}}: [[hyperlink]]s
+; {{cnw|&lt;abbr&gt;}}: afkorting
+; {{cnw|&lt;acronym&gt;}}: [[acroniem]]
+; {{cnw|&lt;address&gt;}}: adres
+; {{cnw|&lt;applet&gt;}}: [[Java-applet]]
+; {{cnw|&lt;area&gt;}}: oppervlak in een afbeelding
+; {{cnw|&lt;b&gt;}}: vet
+; {{cnw|&lt;basefont&gt;}}: informatie over het standaard[[lettertype]] voor de pagina (verouderd)
+; {{cnw|&lt;bdo&gt;}}: tekstrichting
+; {{cnw|&lt;big&gt;}}: groter lettertype
+; {{cnw|&lt;blockquote&gt;}}: voor lange citaten, zal als één blok getoond worden
+; {{cnw|&lt;br&gt;}}: breekt de lijn af
+; {{cnw|&lt;button&gt;}}: drukknop
+; {{cnw|&lt;caption&gt;}}: onderschrift van een tabel
+; {{cnw|&lt;center&gt;}}: tekst centreren (verouderd)
+; {{cnw|&lt;cite&gt;}}: citaat
+; {{cnw|&lt;code&gt;}}: weergave als computercode
+; {{cnw|&lt;col&gt;}}: bevat informatie voor een tabelkolom
+; {{cnw|&lt;colgroup&gt;}}: groepeert kolommen die dezelfde opmaak krijgen
+; {{cnw|&lt;dd&gt;}}: beschrijving van een term in een definitielijst
+; {{cnw|&lt;del&gt;}}: stuk verwijderde tekst (↔ {{cnw|&lt;ins&gt;}})
+; {{cnw|&lt;dfn&gt;}}: definitie van een term
+; {{cnw|&lt;dir&gt;}}: lijst met mappen
+; {{cnw|&lt;div&gt;}}: sectie of divisie
+; {{cnw|&lt;dl&gt;}}: definitielijst
+; {{cnw|&lt;dt&gt;}}: term in definitielijst
+; {{cnw|&lt;em&gt;}}: nadruk op tekst (in de praktijk gelijk aan {{cnw|&lt;i&gt;}})
+; {{cnw|&lt;fieldset&gt;}}: groepeert en omlijnt elementen in formulieren
+; {{cnw|&lt;font&gt;}}: beschrijft het lettertype (verouderd)
+; {{cnw|&lt;form&gt;}}: formulier
+; {{cnw|&lt;h1&gt;}}, {{cnw|&lt;h2&gt;}}, {{cnw|&lt;h3&gt;}}, {{cnw|&lt;h4&gt;}}, {{cnw|&lt;h5&gt;}}, {{cnw|&lt;h6&gt;}}: kopjes van niveau 1 tot en met 6
+; {{cnw|&lt;hr&gt;}}: horizontale lijn
+; {{cnw|&lt;i&gt;}}: cursief
+; {{cnw|&lt;iframe&gt;}}: definieert een [[iframe]], een pagina binnen de pagina
+; {{cnw|&lt;img&gt;}}: afbeelding
+; {{cnw|&lt;input&gt;}}: invoerveld in een formulier
+; {{cnw|&lt;ins&gt;}}: stuk ingevoegde tekst (↔ {{cnw|&lt;del&gt;}})
+; {{cnw|&lt;isindex&gt;}}: tekstinvoerveld in een formulier (verouderd)
+; {{cnw|&lt;kbd&gt;}}: geeft tekst aan die moet ingevoerd worden door de bezoeker
+; {{cnw|&lt;label&gt;}}: label voor een invoerveld in een formulier
+; {{cnw|&lt;legend&gt;}}: een opschrift voor een {{cnw|&lt;fieldset&gt;}}-element
+; {{cnw|&lt;li&gt;}}: element uit een lijst
+; {{cnw|&lt;map&gt;}}: maakt een kaart van een afbeelding met aanklikbare {{cnw|&lt;area&gt;}}-elementen
+; {{cnw|&lt;menu&gt;}}: menulijst (verouderd)
+; {{cnw|&lt;noscript&gt;}}: wat wordt getoond als de [[webbrowser]] geen scripts (in {{cnw|&lt;script&gt;}}-elementen) ondersteunt
+; {{cnw|&lt;ol&gt;}}: geordende lijst
+; {{cnw|&lt;object&gt;}}: definieert een extern object of bestand; werkt enkel in [[Internet Explorer]]
+; {{cnw|&lt;optgroup&gt;}}: groepeert {{cnw|&lt;option&gt;}}-elementen
+; {{cnw|&lt;option&gt;}}: optie in een keuzemenu ({{cnw|&lt;select&gt;}})
+; {{cnw|&lt;p&gt;}}: alinea
+; {{cnw|&lt;param&gt;}}: definieert [[parameter]]s voor {{cnw|&lt;object&gt;}}-elementen
+; {{cnw|&lt;pre&gt;}}: vooraf geformatteerde tekst, witruimtes (tabs, spaties) en regeleindes weergegeven zoals getypt
+; {{cnw|&lt;q&gt;}}: een kort citaat
+; {{cnw|&lt;s&gt;}}: doorgehaalde tekst (hetzelfde als {{cnw|&lt;strike&gt;}}) (verouderd)
+; {{cnw|&lt;samp&gt;}}: voor voorbeelduitvoer van computercode
+; {{cnw|&lt;script&gt;}}: koppelen van [[scripttaal|scripts]] of het inline definiëren van scripts, wordt geladen tijdens het inlezen van de inhoud
+; {{cnw|&lt;select&gt;}}: keuzemenu
+; {{cnw|&lt;small&gt;}}: kleiner lettertype
+; {{cnw|&lt;span&gt;}}: omhult een inline element, wordt vooral bedoeld om een stuk een andere opmaak te geven met behulp van CSS
+; {{cnw|&lt;strike&gt;}}: doorgehaalde tekst (hetzelfde als {{cnw|&lt;s&gt;}}) (verouderd)
+; {{cnw|&lt;strong&gt;}}: versterkte tekst (in de praktijk gelijk aan {{cnw|&lt;b&gt;}})
+; {{cnw|&lt;sub&gt;}}: onderschrift
+; {{cnw|&lt;sup&gt;}}: bovenschrift
+; {{cnw|&lt;table&gt;}}: tabel
+; {{cnw|&lt;tbody&gt;}}: tabelbody, bevat de inhoud van de tabel
+; {{cnw|&lt;td&gt;}}: tabelcel
+; {{cnw|&lt;textarea&gt;}}: invoerveld voor tekst op meerdere regels in formulieren
+; {{cnw|&lt;tfoot&gt;}}: tabelfooter
+; {{cnw|&lt;th&gt;}}: tabelcel met titel
+; {{cnw|&lt;thead&gt;}}: tabelheader, bevat titels voor de kolommen
+; {{cnw|&lt;tr&gt;}}: tabelrij
+; {{cnw|&lt;tt&gt;}}: typemachinelettertype
+; {{cnw|&lt;u&gt;}}: onderlijnen (verouderd)
+; {{cnw|&lt;ul&gt;}}: ongeordende lijst
+
+
+{{Navigatie webdesign}}
+
+[[Categorie:HTML]]
+[[Categorie:Internetlijsten]]
